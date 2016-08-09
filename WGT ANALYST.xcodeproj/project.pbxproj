@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BFBCF581D5A4EE500051894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF571D5A4EE500051894 /* main.m */; };
+		8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */; };
+		8BFBCF5E1D5A4EE500051894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5D1D5A4EE500051894 /* ViewController.m */; };
+		8BFBCF611D5A4EE500051894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5F1D5A4EE500051894 /* Main.storyboard */; };
+		8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF621D5A4EE500051894 /* Assets.xcassets */; };
+		8BFBCF661D5A4EE500051894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */; };
+		8BFBCF711D5A4EE500051894 /* WGT_ANALYSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */; };
+		8BFBCF7C1D5A4EE500051894 /* WGT_ANALYSTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFBCF6D1D5A4EE500051894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFBCF4B1D5A4EE500051894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFBCF521D5A4EE500051894;
+			remoteInfo = "WGT ANALYST";
+		};
+		8BFBCF781D5A4EE500051894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFBCF4B1D5A4EE500051894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFBCF521D5A4EE500051894;
+			remoteInfo = "WGT ANALYST";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WGT ANALYST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFBCF571D5A4EE500051894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BFBCF591D5A4EE500051894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BFBCF5C1D5A4EE500051894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BFBCF5D1D5A4EE500051894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BFBCF601D5A4EE500051894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BFBCF621D5A4EE500051894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFBCF651D5A4EE500051894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BFBCF671D5A4EE500051894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFBCF6C1D5A4EE500051894 /* WGT ANALYSTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WGT ANALYSTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGT_ANALYSTTests.m; sourceTree = "<group>"; };
+		8BFBCF721D5A4EE500051894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFBCF771D5A4EE500051894 /* WGT ANALYSTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WGT ANALYSTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGT_ANALYSTUITests.m; sourceTree = "<group>"; };
+		8BFBCF7D1D5A4EE500051894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFBCF501D5A4EE500051894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF691D5A4EE500051894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF741D5A4EE500051894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFBCF4A1D5A4EE500051894 = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF551D5A4EE500051894 /* WGT ANALYST */,
+				8BFBCF6F1D5A4EE500051894 /* WGT ANALYSTTests */,
+				8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */,
+				8BFBCF541D5A4EE500051894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFBCF541D5A4EE500051894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */,
+				8BFBCF6C1D5A4EE500051894 /* WGT ANALYSTTests.xctest */,
+				8BFBCF771D5A4EE500051894 /* WGT ANALYSTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFBCF551D5A4EE500051894 /* WGT ANALYST */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF591D5A4EE500051894 /* AppDelegate.h */,
+				8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */,
+				8BFBCF5C1D5A4EE500051894 /* ViewController.h */,
+				8BFBCF5D1D5A4EE500051894 /* ViewController.m */,
+				8BFBCF5F1D5A4EE500051894 /* Main.storyboard */,
+				8BFBCF621D5A4EE500051894 /* Assets.xcassets */,
+				8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */,
+				8BFBCF671D5A4EE500051894 /* Info.plist */,
+				8BFBCF561D5A4EE500051894 /* Supporting Files */,
+			);
+			path = "WGT ANALYST";
+			sourceTree = "<group>";
+		};
+		8BFBCF561D5A4EE500051894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF571D5A4EE500051894 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BFBCF6F1D5A4EE500051894 /* WGT ANALYSTTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */,
+				8BFBCF721D5A4EE500051894 /* Info.plist */,
+			);
+			path = "WGT ANALYSTTests";
+			sourceTree = "<group>";
+		};
+		8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */,
+				8BFBCF7D1D5A4EE500051894 /* Info.plist */,
+			);
+			path = "WGT ANALYSTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFBCF521D5A4EE500051894 /* WGT ANALYST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFBCF801D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYST" */;
+			buildPhases = (
+				8BFBCF4F1D5A4EE500051894 /* Sources */,
+				8BFBCF501D5A4EE500051894 /* Frameworks */,
+				8BFBCF511D5A4EE500051894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WGT ANALYST";
+			productName = "WGT ANALYST";
+			productReference = 8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFBCF6B1D5A4EE500051894 /* WGT ANALYSTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFBCF831D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTTests" */;
+			buildPhases = (
+				8BFBCF681D5A4EE500051894 /* Sources */,
+				8BFBCF691D5A4EE500051894 /* Frameworks */,
+				8BFBCF6A1D5A4EE500051894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFBCF6E1D5A4EE500051894 /* PBXTargetDependency */,
+			);
+			name = "WGT ANALYSTTests";
+			productName = "WGT ANALYSTTests";
+			productReference = 8BFBCF6C1D5A4EE500051894 /* WGT ANALYSTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BFBCF761D5A4EE500051894 /* WGT ANALYSTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFBCF861D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTUITests" */;
+			buildPhases = (
+				8BFBCF731D5A4EE500051894 /* Sources */,
+				8BFBCF741D5A4EE500051894 /* Frameworks */,
+				8BFBCF751D5A4EE500051894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFBCF791D5A4EE500051894 /* PBXTargetDependency */,
+			);
+			name = "WGT ANALYSTUITests";
+			productName = "WGT ANALYSTUITests";
+			productReference = 8BFBCF771D5A4EE500051894 /* WGT ANALYSTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFBCF4B1D5A4EE500051894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WGT;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stolyarenko K.S.";
+				TargetAttributes = {
+					8BFBCF521D5A4EE500051894 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 487D8YHE27;
+					};
+					8BFBCF6B1D5A4EE500051894 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 487D8YHE27;
+						TestTargetID = 8BFBCF521D5A4EE500051894;
+					};
+					8BFBCF761D5A4EE500051894 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 487D8YHE27;
+						TestTargetID = 8BFBCF521D5A4EE500051894;
+					};
+				};
+			};
+			buildConfigurationList = 8BFBCF4E1D5A4EE500051894 /* Build configuration list for PBXProject "WGT ANALYST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BFBCF4A1D5A4EE500051894;
+			productRefGroup = 8BFBCF541D5A4EE500051894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFBCF521D5A4EE500051894 /* WGT ANALYST */,
+				8BFBCF6B1D5A4EE500051894 /* WGT ANALYSTTests */,
+				8BFBCF761D5A4EE500051894 /* WGT ANALYSTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFBCF511D5A4EE500051894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFBCF661D5A4EE500051894 /* LaunchScreen.storyboard in Resources */,
+				8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */,
+				8BFBCF611D5A4EE500051894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF6A1D5A4EE500051894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF751D5A4EE500051894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFBCF4F1D5A4EE500051894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFBCF5E1D5A4EE500051894 /* ViewController.m in Sources */,
+				8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */,
+				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF681D5A4EE500051894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFBCF711D5A4EE500051894 /* WGT_ANALYSTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFBCF731D5A4EE500051894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFBCF7C1D5A4EE500051894 /* WGT_ANALYSTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFBCF6E1D5A4EE500051894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFBCF521D5A4EE500051894 /* WGT ANALYST */;
+			targetProxy = 8BFBCF6D1D5A4EE500051894 /* PBXContainerItemProxy */;
+		};
+		8BFBCF791D5A4EE500051894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFBCF521D5A4EE500051894 /* WGT ANALYST */;
+			targetProxy = 8BFBCF781D5A4EE500051894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BFBCF5F1D5A4EE500051894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFBCF601D5A4EE500051894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFBCF651D5A4EE500051894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BFBCF7E1D5A4EE500051894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BFBCF7F1D5A4EE500051894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFBCF811D5A4EE500051894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WGT ANALYST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BFBCF821D5A4EE500051894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WGT ANALYST/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYST";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BFBCF841D5A4EE500051894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WGT ANALYSTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYSTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGT ANALYST.app/WGT ANALYST";
+			};
+			name = Debug;
+		};
+		8BFBCF851D5A4EE500051894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WGT ANALYSTTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYSTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGT ANALYST.app/WGT ANALYST";
+			};
+			name = Release;
+		};
+		8BFBCF871D5A4EE500051894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WGT ANALYSTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYSTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WGT ANALYST";
+			};
+			name = Debug;
+		};
+		8BFBCF881D5A4EE500051894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WGT ANALYSTUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYSTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WGT ANALYST";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFBCF4E1D5A4EE500051894 /* Build configuration list for PBXProject "WGT ANALYST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFBCF7E1D5A4EE500051894 /* Debug */,
+				8BFBCF7F1D5A4EE500051894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFBCF801D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFBCF811D5A4EE500051894 /* Debug */,
+				8BFBCF821D5A4EE500051894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BFBCF831D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFBCF841D5A4EE500051894 /* Debug */,
+				8BFBCF851D5A4EE500051894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BFBCF861D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFBCF871D5A4EE500051894 /* Debug */,
+				8BFBCF881D5A4EE500051894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFBCF4B1D5A4EE500051894 /* Project object */;
+}
