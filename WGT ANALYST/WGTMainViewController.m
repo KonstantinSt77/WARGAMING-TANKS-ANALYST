@@ -38,7 +38,7 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
         NSDictionary *user2 = user[0];
         NSString *str1 = user2[@"account_id"];
         NSInteger stri = [str1 integerValue];
-        _idstring = str1;
+        self.idstring = str1;
         self.account_id.text = [@(stri) description];
         
         
@@ -53,9 +53,9 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     dispatch_async(dispatch_get_main_queue(), ^{
         
         NSDictionary *user = infoDictionary1[@"data"];
-        NSLog(@"infa %@",_idstring);//тут она есть
+        NSLog(@"infa %@",self.idstring);//тут она есть
         
-        //NSDictionary *arr = user[_idstring];//а тут уже нет
+        //NSDictionary *arr = user[self.idstring];//а тут уже нет
         NSDictionary *arr = user[@"1398550"]; //так работает
         NSLog(@"infa%@",arr);
         
@@ -110,13 +110,13 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 {
 
     NSLog(@"hello");
-    NSLog(@"id%@",_idstring);
+    NSLog(@"id%@",self.idstring);
     //session
     NSURLSession *session1 = [NSURLSession sharedSession];
     
     //url
     NSString *urlString1 = [WGApiUrl stringByAppendingString:AccountIDUrl];
-    urlString1 = [NSString stringWithFormat:urlString1,_idstring];
+    urlString1 = [NSString stringWithFormat:urlString1,self.idstring];
     NSURL *url1 = [NSURL URLWithString:urlString1];
     
     NSLog(@"url %@",url1);
