@@ -17,8 +17,8 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 @property (weak, nonatomic) IBOutlet UILabel *name;
 @property (weak, nonatomic) IBOutlet UILabel *account_id;
 @property (weak, nonatomic) IBOutlet UILabel *global_rating;
-@property (weak, nonatomic) IBOutlet UILabel *private_credits;
-@property (weak, nonatomic) IBOutlet UILabel *private_gold;
+@property (weak, nonatomic) IBOutlet UILabel *battels;
+@property (weak, nonatomic) IBOutlet UILabel *hits_percents;
 @property (weak, nonatomic) NSString *idstring;
 
 @end
@@ -61,6 +61,21 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
    
         NSInteger stri1 = [str1 integerValue];
         self.global_rating.text = [@(stri1) description];
+        
+        NSDictionary *str44 = arr[@"statistics"];
+        NSLog(@"infa %@",str44);
+        NSDictionary *str55 = str44[@"all"];
+        NSString *str66 = str55[@"battles"];
+        
+        NSInteger stri66 = [str66 integerValue];
+        self.battels.text = [@(stri66) description];
+        
+        NSString *str77 = str55[@"hits_percents"];
+        
+        NSInteger stri77 = [str77 integerValue];
+        self.hits_percents.text = [@(stri77) description];
+
+
         
     });
 }

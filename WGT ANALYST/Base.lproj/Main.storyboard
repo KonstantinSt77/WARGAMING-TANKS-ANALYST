@@ -197,7 +197,7 @@
                                 <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="private_credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-vy-4fn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="battels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-vy-4fn">
                                 <rect key="frame" x="226" y="326" width="212" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="212" id="QO1-4H-1OY"/>
@@ -207,17 +207,17 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOE-8y-TJ5">
-                                <rect key="frame" x="162" y="353" width="41" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hits percents:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOE-8y-TJ5">
+                                <rect key="frame" x="162" y="353" width="112" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="mmj-zK-YNk"/>
-                                    <constraint firstAttribute="width" constant="41" id="xFt-6P-FwI"/>
+                                    <constraint firstAttribute="width" constant="112" id="xFt-6P-FwI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9i-CT-CQB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battels:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9i-CT-CQB">
                                 <rect key="frame" x="162" y="326" width="60" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Q8P-e3-pkc"/>
@@ -244,10 +244,10 @@
                                 <color key="textColor" red="0.99607843137254903" green="0.76470588235294112" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="private_gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6C-tL-A2L">
-                                <rect key="frame" x="206" y="353" width="232" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hits_percents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6C-tL-A2L">
+                                <rect key="frame" x="274" y="353" width="170" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="232" id="4mp-YV-2b2"/>
+                                    <constraint firstAttribute="width" constant="170" id="4mp-YV-2b2"/>
                                     <constraint firstAttribute="height" constant="21" id="K1q-Ce-ql6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -260,7 +260,7 @@
                             <constraint firstItem="h9i-CT-CQB" firstAttribute="top" secondItem="1BM-3h-uzE" secondAttribute="bottom" constant="6" id="0Gx-Zg-Jgo"/>
                             <constraint firstItem="mRR-5G-OLa" firstAttribute="top" secondItem="NS5-PJ-qBZ" secondAttribute="bottom" constant="8" id="4fy-1K-bJV"/>
                             <constraint firstItem="Wff-YK-HjI" firstAttribute="top" secondItem="Zlq-Kp-Z2I" secondAttribute="bottom" constant="7" id="6bG-vM-v3j"/>
-                            <constraint firstItem="cOE-8y-TJ5" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="-117.5" id="9FD-wX-gcb"/>
+                            <constraint firstItem="cOE-8y-TJ5" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="-82" id="9FD-wX-gcb"/>
                             <constraint firstItem="Wff-YK-HjI" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="-92.5" id="CXK-z3-Jdr"/>
                             <constraint firstItem="Zlq-Kp-Z2I" firstAttribute="top" secondItem="mRR-5G-OLa" secondAttribute="bottom" constant="11" id="EcS-tb-OPK"/>
                             <constraint firstItem="DWE-vy-4fn" firstAttribute="top" secondItem="1BM-3h-uzE" secondAttribute="bottom" constant="6" id="JDL-1I-Yf8"/>
@@ -281,16 +281,16 @@
                             <constraint firstItem="BXY-MO-cbx" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="49.5" id="igR-Hj-eyx"/>
                             <constraint firstItem="1BM-3h-uzE" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="-87" id="ioK-Qs-2gf"/>
                             <constraint firstItem="lrD-Fa-BeW" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" id="kxo-We-zFr"/>
-                            <constraint firstItem="R6C-tL-A2L" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="22" id="o4m-vJ-gED"/>
+                            <constraint firstItem="R6C-tL-A2L" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="59" id="o4m-vJ-gED"/>
                             <constraint firstItem="DWE-vy-4fn" firstAttribute="centerX" secondItem="iil-WW-tpl" secondAttribute="centerX" constant="32" id="rqv-48-2I2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="account_id" destination="ahf-4G-nyV" id="2wH-uf-hmG"/>
+                        <outlet property="battels" destination="DWE-vy-4fn" id="8co-4Q-lbo"/>
                         <outlet property="global_rating" destination="iJ6-gk-CdA" id="NSa-hD-MKu"/>
+                        <outlet property="hits_percents" destination="R6C-tL-A2L" id="iRd-p8-wL2"/>
                         <outlet property="name" destination="BXY-MO-cbx" id="O0p-g4-zEf"/>
-                        <outlet property="private_credits" destination="DWE-vy-4fn" id="fIO-hV-omv"/>
-                        <outlet property="private_gold" destination="R6C-tL-A2L" id="UZd-dW-66Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCF-YQ-eeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
