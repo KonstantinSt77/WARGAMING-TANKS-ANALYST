@@ -45,13 +45,18 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     });
 }
 
+#warning для Евгения
+//нажимаю без авторизации
+// потом в поле текст пишу - kostya8194
+
 - (void)configurationScreenWithDictionary1:(NSDictionary *)infoDictionary1 {
     dispatch_async(dispatch_get_main_queue(), ^{
         
         NSDictionary *user = infoDictionary1[@"data"];
-        NSLog(@"infa %@",_idstring);
+        NSLog(@"infa %@",_idstring);//тут она есть
         
-        NSDictionary *arr = user[_idstring];
+        //NSDictionary *arr = user[_idstring];//а тут уже нет
+        NSDictionary *arr = user[@"1398550"]; //так работает
         NSLog(@"infa%@",arr);
         
        NSString *str1 = arr[@"global_rating"];
