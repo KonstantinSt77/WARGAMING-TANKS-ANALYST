@@ -19,7 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWo-s8-sV1">
                                 <rect key="frame" x="167" y="385" width="267" height="33"/>
-                                <color key="backgroundColor" red="1" green="0.61717906486412555" blue="0.28886055677840949" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.66766674368891787" blue="0.044833793421893309" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="267" id="Bla-QQ-zJ0"/>
                                     <constraint firstAttribute="height" constant="33" id="ZNi-pf-r7P"/>
@@ -54,7 +54,7 @@
                                     <constraint firstAttribute="width" constant="267" id="xDd-L4-Kg7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.91045673076923073" green="0.91045673076923073" blue="0.91045673076923073" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.84314648597833219" blue="0.1001578454459896" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WARGAMING TANKS ANALYST" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byJ-fj-aBE">
@@ -76,7 +76,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYQ-mD-Z8F">
                                 <rect key="frame" x="167" y="426" width="267" height="33"/>
-                                <color key="backgroundColor" red="1" green="0.61717906489999996" blue="0.2888605568" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.66766674368891787" blue="0.044833793421893309" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="267" id="XaI-pe-jsF"/>
                                     <constraint firstAttribute="height" constant="33" id="mwR-BV-SlZ"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.76822916666666663" green="0.41268782653277214" blue="0.14850878733967698" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.013360492851708579" green="0.0051259421696962584" blue="0.29062500000000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="MCa-q4-vBC" firstAttribute="top" secondItem="byJ-fj-aBE" secondAttribute="bottom" constant="8" id="A0g-sJ-CzB"/>
                             <constraint firstItem="VF8-p7-Ksc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMy-78-fOs"/>
@@ -174,7 +174,7 @@
                                     <constraint firstAttribute="height" constant="21" id="dZD-Lj-bEh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account id:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wff-YK-HjI">
@@ -184,7 +184,7 @@
                                     <constraint firstAttribute="width" constant="91" id="N3f-km-kXP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Global rating:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BM-3h-uzE">
@@ -194,7 +194,7 @@
                                     <constraint firstAttribute="width" constant="102" id="VrI-Nt-Zea"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="private_credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-vy-4fn">
@@ -214,7 +214,7 @@
                                     <constraint firstAttribute="width" constant="41" id="xFt-6P-FwI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9i-CT-CQB">
@@ -224,7 +224,7 @@
                                     <constraint firstAttribute="width" constant="60" id="XWy-6f-EWf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.8008844506907129" blue="0.052165260926825496" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WoT_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lrD-Fa-BeW">
@@ -241,7 +241,7 @@
                                     <constraint firstAttribute="width" constant="162" id="Q4v-Eu-AP2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.99607843137254903" green="0.76470588235294112" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="private_gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6C-tL-A2L">
@@ -255,7 +255,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.13384496594713519" green="0.31476362179487183" blue="0.058280222354383675" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.010903759897818858" green="0.0" blue="0.29878982843137258" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="h9i-CT-CQB" firstAttribute="top" secondItem="1BM-3h-uzE" secondAttribute="bottom" constant="6" id="0Gx-Zg-Jgo"/>
                             <constraint firstItem="mRR-5G-OLa" firstAttribute="top" secondItem="NS5-PJ-qBZ" secondAttribute="bottom" constant="8" id="4fy-1K-bJV"/>
