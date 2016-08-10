@@ -14,8 +14,8 @@
 		8BFBCF661D5A4EE500051894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */; };
 		8BFBCF711D5A4EE500051894 /* WGT_ANALYSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */; };
 		8BFBCF7C1D5A4EE500051894 /* WGT_ANALYSTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */; };
-		8BFBCF8B1D5B12CA00051894 /* WGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF8A1D5B12CA00051894 /* WGTMainViewController.m */; };
-		8BFBCF8E1D5B12EA00051894 /* WGTStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF8D1D5B12EA00051894 /* WGTStartViewController.m */; };
+		8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */; };
+		8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +50,10 @@
 		8BFBCF771D5A4EE500051894 /* WGT ANALYSTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WGT ANALYSTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGT_ANALYSTUITests.m; sourceTree = "<group>"; };
 		8BFBCF7D1D5A4EE500051894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BFBCF891D5B12CA00051894 /* WGTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGTMainViewController.h; path = ../WGTMainViewController.h; sourceTree = "<group>"; };
-		8BFBCF8A1D5B12CA00051894 /* WGTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGTMainViewController.m; path = ../WGTMainViewController.m; sourceTree = "<group>"; };
-		8BFBCF8C1D5B12EA00051894 /* WGTStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGTStartViewController.h; path = ../WGTStartViewController.h; sourceTree = "<group>"; };
-		8BFBCF8D1D5B12EA00051894 /* WGTStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGTStartViewController.m; path = ../WGTStartViewController.m; sourceTree = "<group>"; };
+		8BFBCF8F1D5B5B8700051894 /* WGTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTMainViewController.h; sourceTree = "<group>"; };
+		8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTMainViewController.m; sourceTree = "<group>"; };
+		8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTStartViewController.h; sourceTree = "<group>"; };
+		8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTStartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +106,10 @@
 			children = (
 				8BFBCF591D5A4EE500051894 /* AppDelegate.h */,
 				8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */,
-				8BFBCF8C1D5B12EA00051894 /* WGTStartViewController.h */,
-				8BFBCF8D1D5B12EA00051894 /* WGTStartViewController.m */,
-				8BFBCF891D5B12CA00051894 /* WGTMainViewController.h */,
-				8BFBCF8A1D5B12CA00051894 /* WGTMainViewController.m */,
+				8BFBCF8F1D5B5B8700051894 /* WGTMainViewController.h */,
+				8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */,
+				8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */,
+				8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */,
 				8BFBCF5F1D5A4EE500051894 /* Main.storyboard */,
 				8BFBCF621D5A4EE500051894 /* Assets.xcassets */,
 				8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */,
@@ -281,8 +281,8 @@
 			files = (
 				8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */,
 				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
-				8BFBCF8E1D5B12EA00051894 /* WGTStartViewController.m in Sources */,
-				8BFBCF8B1D5B12CA00051894 /* WGTMainViewController.m in Sources */,
+				8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */,
+				8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
