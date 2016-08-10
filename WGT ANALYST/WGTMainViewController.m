@@ -38,25 +38,22 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
         NSDictionary *user2 = user[0];
         NSString *str1 = user2[@"account_id"];
         NSInteger stri = [str1 integerValue];
-        self.idstring = str1;
+        self.idstring = [NSString stringWithFormat:@"%ld", (long)stri];
         self.account_id.text = [@(stri) description];
         
         
     });
 }
 
-#warning для Евгения
-//нажимаю без авторизации
-// потом в поле текст пишу - kostya8194
+
 
 - (void)configurationScreenWithDictionary1:(NSDictionary *)infoDictionary1 {
     dispatch_async(dispatch_get_main_queue(), ^{
         
         NSDictionary *user = infoDictionary1[@"data"];
-        NSLog(@"infa %@",self.idstring);//тут она есть
+        NSLog(@"infa %@",self.idstring);
         
-        //NSDictionary *arr = user[self.idstring];//а тут уже нет
-        NSDictionary *arr = user[@"1398550"]; //так работает
+        NSDictionary *arr = user[self.idstring];
         NSLog(@"infa%@",arr);
         
        NSString *str1 = arr[@"global_rating"];
