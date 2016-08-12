@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */; };
+		81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */; };
 		8BFBCF581D5A4EE500051894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF571D5A4EE500051894 /* main.m */; };
 		8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */; };
 		8BFBCF611D5A4EE500051894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5F1D5A4EE500051894 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		8BFBCF7C1D5A4EE500051894 /* WGT_ANALYSTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */; };
 		8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */; };
 		8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */; };
+		9CBE3F6CE823EE59AEDE938A /* libPods-WGT ANALYSTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCE4EFB49A7A32355B9C48 /* libPods-WGT ANALYSTTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA679471FD74B8D6A14BCF2 /* Pods-WGT ANALYST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.debug.xcconfig"; sourceTree = "<group>"; };
+		20F54AB26BC2693BC161FC42 /* Pods-WGT ANALYSTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35CCE4EFB49A7A32355B9C48 /* libPods-WGT ANALYSTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A40D628DC32FD3E345E3CEC /* Pods-WGT ANALYSTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.release.xcconfig"; sourceTree = "<group>"; };
+		76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WGT ANALYST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF571D5A4EE500051894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BFBCF591D5A4EE500051894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +63,9 @@
 		8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTMainViewController.m; sourceTree = "<group>"; };
 		8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTStartViewController.h; sourceTree = "<group>"; };
 		8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTStartViewController.m; sourceTree = "<group>"; };
+		9548DBCFF27B3D24D5029985 /* Pods-WGT ANALYST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.release.xcconfig"; sourceTree = "<group>"; };
+		ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3302F7E6C22547A3B5D6D0E /* Pods-WGT ANALYSTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBE3F6CE823EE59AEDE938A /* libPods-WGT ANALYSTTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BD179091486486478BDED60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EA679471FD74B8D6A14BCF2 /* Pods-WGT ANALYST.debug.xcconfig */,
+				9548DBCFF27B3D24D5029985 /* Pods-WGT ANALYST.release.xcconfig */,
+				E3302F7E6C22547A3B5D6D0E /* Pods-WGT ANALYSTTests.debug.xcconfig */,
+				41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */,
+				20F54AB26BC2693BC161FC42 /* Pods-WGT ANALYSTUITests.debug.xcconfig */,
+				3A40D628DC32FD3E345E3CEC /* Pods-WGT ANALYSTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8BFBCF4A1D5A4EE500051894 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				8BFBCF6F1D5A4EE500051894 /* WGT ANALYSTTests */,
 				8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */,
 				8BFBCF541D5A4EE500051894 /* Products */,
+				0BD179091486486478BDED60 /* Pods */,
+				FC413C5E5CE929B43DD09214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +175,16 @@
 			path = "WGT ANALYSTUITests";
 			sourceTree = "<group>";
 		};
+		FC413C5E5CE929B43DD09214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */,
+				35CCE4EFB49A7A32355B9C48 /* libPods-WGT ANALYSTTests.a */,
+				76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BFBCF801D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYST" */;
 			buildPhases = (
+				E3C86788C7D058F93B7968E0 /* [CP] Check Pods Manifest.lock */,
 				8BFBCF4F1D5A4EE500051894 /* Sources */,
 				8BFBCF501D5A4EE500051894 /* Frameworks */,
 				8BFBCF511D5A4EE500051894 /* Resources */,
+				789DCD1FD60E69383716E571 /* [CP] Embed Pods Frameworks */,
+				9748CDD8F68D19E6F439A10A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BFBCF831D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTTests" */;
 			buildPhases = (
+				BDF45ACAE47F4D9550E84F18 /* [CP] Check Pods Manifest.lock */,
 				8BFBCF681D5A4EE500051894 /* Sources */,
 				8BFBCF691D5A4EE500051894 /* Frameworks */,
 				8BFBCF6A1D5A4EE500051894 /* Resources */,
+				927455E35D6D025725AE8F67 /* [CP] Embed Pods Frameworks */,
+				DBCEF1B7F8FC7AF0F6C3EA66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BFBCF861D5A4EE500051894 /* Build configuration list for PBXNativeTarget "WGT ANALYSTUITests" */;
 			buildPhases = (
+				CD57D3E82102C76EC4055588 /* [CP] Check Pods Manifest.lock */,
 				8BFBCF731D5A4EE500051894 /* Sources */,
 				8BFBCF741D5A4EE500051894 /* Frameworks */,
 				8BFBCF751D5A4EE500051894 /* Resources */,
+				AAB71AD46ABE012C4321E18C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +321,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		789DCD1FD60E69383716E571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927455E35D6D025725AE8F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9748CDD8F68D19E6F439A10A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB71AD46ABE012C4321E18C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF45ACAE47F4D9550E84F18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD57D3E82102C76EC4055588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCEF1B7F8FC7AF0F6C3EA66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C86788C7D058F93B7968E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BFBCF4F1D5A4EE500051894 /* Sources */ = {
@@ -421,6 +592,7 @@
 		};
 		8BFBCF811D5A4EE500051894 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA679471FD74B8D6A14BCF2 /* Pods-WGT ANALYST.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WGT ANALYST/Info.plist";
@@ -433,6 +605,7 @@
 		};
 		8BFBCF821D5A4EE500051894 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9548DBCFF27B3D24D5029985 /* Pods-WGT ANALYST.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "WGT ANALYST/Info.plist";
@@ -445,6 +618,7 @@
 		};
 		8BFBCF841D5A4EE500051894 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3302F7E6C22547A3B5D6D0E /* Pods-WGT ANALYSTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "WGT ANALYSTTests/Info.plist";
@@ -457,6 +631,7 @@
 		};
 		8BFBCF851D5A4EE500051894 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "WGT ANALYSTTests/Info.plist";
@@ -469,6 +644,7 @@
 		};
 		8BFBCF871D5A4EE500051894 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F54AB26BC2693BC161FC42 /* Pods-WGT ANALYSTUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "WGT ANALYSTUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -480,6 +656,7 @@
 		};
 		8BFBCF881D5A4EE500051894 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A40D628DC32FD3E345E3CEC /* Pods-WGT ANALYSTUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "WGT ANALYSTUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

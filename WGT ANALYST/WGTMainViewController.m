@@ -106,49 +106,31 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
                                                 //parsing request
                                                 NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
                                                 [strongSelf configurationScreenWithDictionary:json];
-                                                [self request];
+                                    
+                                                [self AFNRequest];
                                             }];
     [dataTask resume];
     textField.text = nil;
-    
-
-    
     return YES;
 }
 
 
-
--(void)request
+-(BOOL)AFNRequest
 {
-
-    NSLog(@"hello");
-    NSLog(@"id%@",self.idstring);
-    //session
-    NSURLSession *session1 = [NSURLSession sharedSession];
     
-    //url
-    NSString *urlString1 = [WGApiUrl stringByAppendingString:AccountIDUrl];
-    urlString1 = [NSString stringWithFormat:urlString1,self.idstring];
-    NSURL *url1 = [NSURL URLWithString:urlString1];
-    
-    NSLog(@"url %@",url1);
-    
-    //request
-    __weak typeof(self) weakSelf = self;
-    NSURLSessionDataTask *dataTask1 = [session1 dataTaskWithURL:url1
-                                            completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-                                                __strong typeof(weakSelf) strongSelf = weakSelf;
-                                                
-                                                //parsing request
-                                                NSDictionary *json1 = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-                                                [strongSelf configurationScreenWithDictionary1:json1];
-                                                
-                                            }];
-    [dataTask1 resume];
-
+    NSURLSessionConfiguration *configuration3 = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:configuration3];
+    NSString *urlString3 = [WGApiUrl stringByAppendingString:AccountIDUrl];
+    urlString3 = [NSString stringWithFormat:urlString3, self.idstring];
+    NSURL *url3 = [NSURL URLWithString:urlString3];
+    [manager GET:url3.absoluteString parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+        NSDictionary *json3 = responseObject;
+        [self configurationScreenWithDictionary1:json3];
+    } failure:^(NSURLSessionTask *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    return YES;
 }
-
-
 
 
 @end
