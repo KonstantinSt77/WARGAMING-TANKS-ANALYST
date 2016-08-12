@@ -14,13 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - DCAnimationKit (0.0.6)
+  - RESideMenu (4.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - DCAnimationKit (~> 0.0)
+  - RESideMenu (~> 4.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DCAnimationKit: 7133bef877ce1aa113dcfeea1380ca67f91f7608
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
 
-PODFILE CHECKSUM: c7284d2685a8f18e398806692ce69125a6e5816b
+PODFILE CHECKSUM: 574f2312f5e19d78d188ece7a5b4c79bf2178634
 
 COCOAPODS: 1.0.1

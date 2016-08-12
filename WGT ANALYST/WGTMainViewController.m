@@ -19,6 +19,7 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 @property (weak, nonatomic) IBOutlet UILabel *global_rating;
 @property (weak, nonatomic) IBOutlet UILabel *battels;
 @property (weak, nonatomic) IBOutlet UILabel *hits_percents;
+@property (weak, nonatomic) IBOutlet UIImageView *wot;
 @property (weak, nonatomic) NSString *idstring;
 
 @end
@@ -27,7 +28,8 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    [self.wot expandIntoView:self.view finished:NULL];
 }
 
 //parsing data by name of the city
@@ -132,5 +134,12 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     return YES;
 }
 
+
+-(IBAction)start:(id)sender
+{
+    //[self.wot snapIntoView:self.view direction:DCAnimationDirectionTop];
+    //[self.wot bounceIntoView:self.view direction:DCAnimationDirectionTop];
+    [self.wot swing:NULL];
+}
 
 @end

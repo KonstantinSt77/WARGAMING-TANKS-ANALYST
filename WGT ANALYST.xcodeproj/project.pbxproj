@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */; };
+		4D4D87291154FCE56DA6BF15 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BDFE3A9DEE6FA12D0DBBA3 /* libPods-WGT ANALYSTUITests.a */; };
 		81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */; };
+		8BDD05591D5DE84500459853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */; };
+		8BDD055A1D5DE84500459853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD054A1D5DE84500459853 /* Main.storyboard */; };
+		8BDD055C1D5DE84500459853 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD054F1D5DE84500459853 /* DEMOLeftMenuViewController.m */; };
+		8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD05531D5DE84500459853 /* DEMORootViewController.m */; };
 		8BFBCF581D5A4EE500051894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF571D5A4EE500051894 /* main.m */; };
 		8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */; };
-		8BFBCF611D5A4EE500051894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5F1D5A4EE500051894 /* Main.storyboard */; };
 		8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF621D5A4EE500051894 /* Assets.xcassets */; };
-		8BFBCF661D5A4EE500051894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */; };
 		8BFBCF711D5A4EE500051894 /* WGT_ANALYSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */; };
 		8BFBCF7C1D5A4EE500051894 /* WGT_ANALYSTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF7B1D5A4EE500051894 /* WGT_ANALYSTUITests.m */; };
 		8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */; };
 		8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */; };
 		9CBE3F6CE823EE59AEDE938A /* libPods-WGT ANALYSTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCE4EFB49A7A32355B9C48 /* libPods-WGT ANALYSTTests.a */; };
+		B6A3E1FF33C95BF54958B49C /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD14214DF14655369C937ED3 /* libPods-WGT ANALYST.a */; };
+		B9F08E5ABD9CA4F02E6C182D /* libPods-WGT ANALYSTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3558997828410D59C38441CB /* libPods-WGT ANALYSTTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,17 +46,26 @@
 /* Begin PBXFileReference section */
 		1EA679471FD74B8D6A14BCF2 /* Pods-WGT ANALYST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.debug.xcconfig"; sourceTree = "<group>"; };
 		20F54AB26BC2693BC161FC42 /* Pods-WGT ANALYSTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34C41D0BFE78AA27CED6FF9C /* Pods-WGT ANALYST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.release.xcconfig"; sourceTree = "<group>"; };
+		3558997828410D59C38441CB /* libPods-WGT ANALYSTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CCE4EFB49A7A32355B9C48 /* libPods-WGT ANALYSTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A40D628DC32FD3E345E3CEC /* Pods-WGT ANALYSTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4120742CD1E41C866EAEA110 /* Pods-WGT ANALYSTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		413A7FF1F680BC31A4B5CAD6 /* Pods-WGT ANALYSTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.release.xcconfig"; sourceTree = "<group>"; };
 		41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.release.xcconfig"; sourceTree = "<group>"; };
+		6829A4F9E67FE2D2EBEA7E9C /* Pods-WGT ANALYSTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDD05491D5DE84500459853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BDD054B1D5DE84500459853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		8BDD054E1D5DE84500459853 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		8BDD054F1D5DE84500459853 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		8BDD05521D5DE84500459853 /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
+		8BDD05531D5DE84500459853 /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
 		8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WGT ANALYST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF571D5A4EE500051894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BFBCF591D5A4EE500051894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BFBCF601D5A4EE500051894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BFBCF621D5A4EE500051894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BFBCF651D5A4EE500051894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BFBCF671D5A4EE500051894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BFBCF6C1D5A4EE500051894 /* WGT ANALYSTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WGT ANALYSTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF701D5A4EE500051894 /* WGT_ANALYSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGT_ANALYSTTests.m; sourceTree = "<group>"; };
@@ -64,7 +78,11 @@
 		8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTStartViewController.h; sourceTree = "<group>"; };
 		8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTStartViewController.m; sourceTree = "<group>"; };
 		9548DBCFF27B3D24D5029985 /* Pods-WGT ANALYST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.release.xcconfig"; sourceTree = "<group>"; };
+		A1BDFE3A9DEE6FA12D0DBBA3 /* libPods-WGT ANALYSTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF6795AF20CD0A51A05424 /* Pods-WGT ANALYSTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA19AA7116344158C22AF6A /* Pods-WGT ANALYST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYST/Pods-WGT ANALYST.debug.xcconfig"; sourceTree = "<group>"; };
+		BD14214DF14655369C937ED3 /* libPods-WGT ANALYST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3302F7E6C22547A3B5D6D0E /* Pods-WGT ANALYSTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */,
+				B6A3E1FF33C95BF54958B49C /* libPods-WGT ANALYST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CBE3F6CE823EE59AEDE938A /* libPods-WGT ANALYSTTests.a in Frameworks */,
+				B9F08E5ABD9CA4F02E6C182D /* libPods-WGT ANALYSTTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */,
+				4D4D87291154FCE56DA6BF15 /* libPods-WGT ANALYSTUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,17 +128,42 @@
 				3A40D628DC32FD3E345E3CEC /* Pods-WGT ANALYSTUITests.release.xcconfig */,
 			);
 			name = Pods;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2BB55234F79CF503DBF7712F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA19AA7116344158C22AF6A /* Pods-WGT ANALYST.debug.xcconfig */,
+				34C41D0BFE78AA27CED6FF9C /* Pods-WGT ANALYST.release.xcconfig */,
+				B0CF6795AF20CD0A51A05424 /* Pods-WGT ANALYSTTests.debug.xcconfig */,
+				413A7FF1F680BC31A4B5CAD6 /* Pods-WGT ANALYSTTests.release.xcconfig */,
+				6829A4F9E67FE2D2EBEA7E9C /* Pods-WGT ANALYSTUITests.debug.xcconfig */,
+				4120742CD1E41C866EAEA110 /* Pods-WGT ANALYSTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BDD05641D5DF5EF00459853 /* Tests&Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBCF6F1D5A4EE500051894 /* WGT ANALYSTTests */,
+				8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */,
+				8BFBCF541D5A4EE500051894 /* Products */,
+				0BD179091486486478BDED60 /* Pods */,
+				FC413C5E5CE929B43DD09214 /* Frameworks */,
+			);
+			name = "Tests&Products";
+			path = "WGT ANALYST";
 			sourceTree = "<group>";
 		};
 		8BFBCF4A1D5A4EE500051894 = {
 			isa = PBXGroup;
 			children = (
 				8BFBCF551D5A4EE500051894 /* WGT ANALYST */,
-				8BFBCF6F1D5A4EE500051894 /* WGT ANALYSTTests */,
-				8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */,
-				8BFBCF541D5A4EE500051894 /* Products */,
-				0BD179091486486478BDED60 /* Pods */,
-				FC413C5E5CE929B43DD09214 /* Frameworks */,
+				8BDD05641D5DF5EF00459853 /* Tests&Products */,
+				2BB55234F79CF503DBF7712F /* Pods */,
+				CEEC71EFE3C7D8E590E6F4A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +175,7 @@
 				8BFBCF771D5A4EE500051894 /* WGT ANALYSTUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8BFBCF551D5A4EE500051894 /* WGT ANALYST */ = {
@@ -140,10 +187,12 @@
 				8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */,
 				8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */,
 				8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */,
-				8BFBCF5F1D5A4EE500051894 /* Main.storyboard */,
-				8BFBCF621D5A4EE500051894 /* Assets.xcassets */,
-				8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */,
-				8BFBCF671D5A4EE500051894 /* Info.plist */,
+				8BDD054E1D5DE84500459853 /* DEMOLeftMenuViewController.h */,
+				8BDD054F1D5DE84500459853 /* DEMOLeftMenuViewController.m */,
+				8BDD05521D5DE84500459853 /* DEMORootViewController.h */,
+				8BDD05531D5DE84500459853 /* DEMORootViewController.m */,
+				8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */,
+				8BDD054A1D5DE84500459853 /* Main.storyboard */,
 				8BFBCF561D5A4EE500051894 /* Supporting Files */,
 			);
 			path = "WGT ANALYST";
@@ -152,6 +201,8 @@
 		8BFBCF561D5A4EE500051894 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BFBCF621D5A4EE500051894 /* Assets.xcassets */,
+				8BFBCF671D5A4EE500051894 /* Info.plist */,
 				8BFBCF571D5A4EE500051894 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -164,7 +215,7 @@
 				8BFBCF721D5A4EE500051894 /* Info.plist */,
 			);
 			path = "WGT ANALYSTTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		8BFBCF7A1D5A4EE500051894 /* WGT ANALYSTUITests */ = {
 			isa = PBXGroup;
@@ -173,6 +224,16 @@
 				8BFBCF7D1D5A4EE500051894 /* Info.plist */,
 			);
 			path = "WGT ANALYSTUITests";
+			sourceTree = SOURCE_ROOT;
+		};
+		CEEC71EFE3C7D8E590E6F4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD14214DF14655369C937ED3 /* libPods-WGT ANALYST.a */,
+				3558997828410D59C38441CB /* libPods-WGT ANALYSTTests.a */,
+				A1BDFE3A9DEE6FA12D0DBBA3 /* libPods-WGT ANALYSTUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FC413C5E5CE929B43DD09214 /* Frameworks */ = {
@@ -183,6 +244,7 @@
 				76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +362,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFBCF661D5A4EE500051894 /* LaunchScreen.storyboard in Resources */,
 				8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */,
-				8BFBCF611D5A4EE500051894 /* Main.storyboard in Resources */,
+				8BDD055A1D5DE84500459853 /* Main.storyboard in Resources */,
+				8BDD05591D5DE84500459853 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +514,9 @@
 			files = (
 				8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */,
 				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
+				8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */,
 				8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */,
+				8BDD055C1D5DE84500459853 /* DEMOLeftMenuViewController.m in Sources */,
 				8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,20 +553,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8BFBCF5F1D5A4EE500051894 /* Main.storyboard */ = {
+		8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8BFBCF601D5A4EE500051894 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8BFBCF641D5A4EE500051894 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BFBCF651D5A4EE500051894 /* Base */,
+				8BDD05491D5DE84500459853 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		8BDD054A1D5DE84500459853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDD054B1D5DE84500459853 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

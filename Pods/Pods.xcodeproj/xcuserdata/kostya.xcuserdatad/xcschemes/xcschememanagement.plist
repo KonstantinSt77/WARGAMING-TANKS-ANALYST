@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DCAnimationKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-WGT ANALYST.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -20,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-WGT ANALYSTUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RESideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8F92AB6DEFFF61E08D86B03365A4F4AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>919C30B3E026D75449FE52B63CCFACA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D16B9FE5A0590E7578A95B7A309C7343</key>
+		<key>BAD549D5A9374BE89695E753A6FEA563</key>
 		<dict>
 			<key>primary</key>
 			<true/>

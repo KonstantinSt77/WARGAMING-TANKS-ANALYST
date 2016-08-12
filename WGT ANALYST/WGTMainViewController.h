@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AFNetworking.h>
+#import <UIView+DCAnimationKit.h>
 @interface WGTMainViewController : UIViewController
 
 @end
