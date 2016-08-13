@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <UIView+DCAnimationKit.h>
 @interface WGTStartViewController : UIViewController
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "DEMORootViewController.h"
-#import "DEMOLeftMenuViewController.h"
+#import "WGTMenuViewController.h"
 
 @interface DEMORootViewController ()
 

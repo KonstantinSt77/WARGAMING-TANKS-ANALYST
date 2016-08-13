@@ -30,6 +30,16 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     [super viewDidLoad];
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [self.wot expandIntoView:self.view finished:NULL];
+    [self.name expandIntoView:self.view finished:NULL];
+    [self.account_id expandIntoView:self.view finished:NULL];
+    [self.global_rating expandIntoView:self.view finished:NULL];
+    [self.battels expandIntoView:self.view finished:NULL];
+    [self.hits_percents expandIntoView:self.view finished:NULL];
+    [self.wot expandIntoView:self.view finished:NULL];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 4.0
+                                                  target: self
+                                                    selector:@selector(start:)
+                                                userInfo: nil repeats:YES];
 }
 
 //parsing data by name of the city
@@ -43,7 +53,12 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
         self.idstring = [NSString stringWithFormat:@"%ld", (long)stri];
         self.account_id.text = [@(stri) description];
         
-        
+
+        [self.name expandIntoView:self.view finished:NULL];
+        [self.account_id expandIntoView:self.view finished:NULL];
+        [self.global_rating expandIntoView:self.view finished:NULL];
+        [self.battels expandIntoView:self.view finished:NULL];
+        [self.hits_percents expandIntoView:self.view finished:NULL];
     });
 }
 
@@ -78,7 +93,6 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
         self.hits_percents.text = [@(stri77) description];
 
 
-        
     });
 }
 
@@ -139,7 +153,10 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 {
     //[self.wot snapIntoView:self.view direction:DCAnimationDirectionTop];
     //[self.wot bounceIntoView:self.view direction:DCAnimationDirectionTop];
-    [self.wot swing:NULL];
+    //[self.wot swing:NULL];
+    //[self.wot expandIntoView:self.view finished:NULL];
+    //[self.wot expandIntoView:self.view finished:NULL];
+    [self.wot pulse:NULL];
 }
 
 @end

@@ -9,6 +9,7 @@
 #import "WGTStartViewController.h"
 
 @interface WGTStartViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *wotl;
 
 @end
 
@@ -16,17 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 3.0
+                                                      target: self
+                                                    selector:@selector(start:)
+                                                    userInfo: nil repeats:YES];
+
 
 }
 
-
-- (IBAction)pushViewController:(id)sender
+-(IBAction)start:(id)sender
 {
-    UIViewController *viewController = [[UIViewController alloc] init];
-    viewController.title = @"Pushed Controller";
-    viewController.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController pushViewController:viewController animated:YES];
+
+   // [self.wotl pulse:NULL];
+    [self.wotl bounce:NULL];
 }
 
 @end
