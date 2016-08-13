@@ -17,19 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 [[self navigationController] setNavigationBarHidden:YES animated:YES];
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 3.0
                                                       target: self
-                                                    selector:@selector(start:)
+                                                    selector:@selector(logoTwoAnimation)
                                                     userInfo: nil repeats:YES];
-
-
 }
 
--(IBAction)start:(id)sender
+-(void)logoTwoAnimation
 {
-
    // [self.wotl pulse:NULL];
     [self.wotl bounce:NULL];
 }

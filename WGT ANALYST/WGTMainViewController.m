@@ -29,20 +29,15 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
-    [self.wot expandIntoView:self.view finished:NULL];
-    [self.name expandIntoView:self.view finished:NULL];
-    [self.account_id expandIntoView:self.view finished:NULL];
-    [self.global_rating expandIntoView:self.view finished:NULL];
-    [self.battels expandIntoView:self.view finished:NULL];
-    [self.hits_percents expandIntoView:self.view finished:NULL];
-    [self.wot expandIntoView:self.view finished:NULL];
+    [self dataAnimation];
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 4.0
                                                   target: self
-                                                    selector:@selector(start:)
+                                                    selector:@selector(logoAnimation)
                                                 userInfo: nil repeats:YES];
 }
 
-//parsing data by name of the city
+//parsing data by nickname
+
 - (void)configurationScreenWithDictionary:(NSDictionary *)infoDictionary {
     dispatch_async(dispatch_get_main_queue(), ^{
         
@@ -52,17 +47,12 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
         NSInteger stri = [str1 integerValue];
         self.idstring = [NSString stringWithFormat:@"%ld", (long)stri];
         self.account_id.text = [@(stri) description];
-        
-
-        [self.name expandIntoView:self.view finished:NULL];
-        [self.account_id expandIntoView:self.view finished:NULL];
-        [self.global_rating expandIntoView:self.view finished:NULL];
-        [self.battels expandIntoView:self.view finished:NULL];
-        [self.hits_percents expandIntoView:self.view finished:NULL];
+        [self dataAnimation];
     });
 }
 
 
+//parsing data by account_id
 
 - (void)configurationScreenWithDictionary1:(NSDictionary *)infoDictionary1 {
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -97,6 +87,8 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 }
 
 
+// NSURLSession request
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
     
@@ -130,6 +122,7 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     return YES;
 }
 
+// AFHTTPSessionManager request
 
 -(BOOL)AFNRequest
 {
@@ -149,7 +142,9 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 }
 
 
--(IBAction)start:(id)sender
+// Animation
+
+-(void)logoAnimation
 {
     //[self.wot snapIntoView:self.view direction:DCAnimationDirectionTop];
     //[self.wot bounceIntoView:self.view direction:DCAnimationDirectionTop];
@@ -158,5 +153,16 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     //[self.wot expandIntoView:self.view finished:NULL];
     [self.wot pulse:NULL];
 }
+-(void)dataAnimation
+{
+    [self.wot expandIntoView:self.view finished:NULL];
+    [self.name expandIntoView:self.view finished:NULL];
+    [self.account_id expandIntoView:self.view finished:NULL];
+    [self.global_rating expandIntoView:self.view finished:NULL];
+    [self.battels expandIntoView:self.view finished:NULL];
+    [self.hits_percents expandIntoView:self.view finished:NULL];
+    [self.wot expandIntoView:self.view finished:NULL];
+}
+
 
 @end
