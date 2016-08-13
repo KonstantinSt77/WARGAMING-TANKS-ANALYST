@@ -142,7 +142,7 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 }
 
 
-// Animation
+// Animation - https://github.com/daltoniam/DCAnimationKit
 
 -(void)logoAnimation
 {

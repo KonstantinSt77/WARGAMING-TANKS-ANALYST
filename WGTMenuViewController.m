@@ -67,7 +67,7 @@
         case 3:
             
             
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"firstViewController"]]
+            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ViewController4"]]
                                                          animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
