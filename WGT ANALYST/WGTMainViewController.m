@@ -20,7 +20,8 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 @property (weak, nonatomic) IBOutlet UILabel *battels;
 @property (weak, nonatomic) IBOutlet UILabel *hits_percents;
 @property (weak, nonatomic) IBOutlet UIImageView *wot;
-@property (weak, nonatomic) NSString *idstring;
+@property (weak, nonatomic) IBOutlet UIView *line;
+@property (strong, nonatomic) NSString *idstring;
 
 @end
 
@@ -28,9 +29,9 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+[[self navigationController] setNavigationBarHidden:YES animated:YES];
     [self dataAnimation];
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 4.0
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 6.0
                                                   target: self
                                                     selector:@selector(logoAnimation)
                                                 userInfo: nil repeats:YES];
@@ -152,6 +153,7 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     //[self.wot expandIntoView:self.view finished:NULL];
     //[self.wot expandIntoView:self.view finished:NULL];
     [self.wot pulse:NULL];
+    [self.line pulse:NULL];
 }
 -(void)dataAnimation
 {
@@ -162,6 +164,9 @@ static NSString *const AccountIDUrl = @"info/?application_id=1cf23eee894da3308fc
     [self.battels expandIntoView:self.view finished:NULL];
     [self.hits_percents expandIntoView:self.view finished:NULL];
     [self.wot expandIntoView:self.view finished:NULL];
+    
+    
+
 }
 
 

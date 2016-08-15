@@ -10,8 +10,9 @@
 		1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */; };
 		4D4D87291154FCE56DA6BF15 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BDFE3A9DEE6FA12D0DBBA3 /* libPods-WGT ANALYSTUITests.a */; };
 		81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */; };
+		8B3132AE1D62562A007E8C5A /* WGTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */; };
+		8B3132B11D62571A007E8C5A /* WGTServersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132B01D62571A007E8C5A /* WGTServersViewController.m */; };
 		8B4C8BE61D5FBE04009EE492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C8BE41D5FBE04009EE492 /* Main.storyboard */; };
-		8B4C8BE91D5FBF44009EE492 /* WGTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C8BE81D5FBF44009EE492 /* WGTMenuViewController.m */; };
 		8BDD05591D5DE84500459853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */; };
 		8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD05531D5DE84500459853 /* DEMORootViewController.m */; };
 		8BFBCF581D5A4EE500051894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF571D5A4EE500051894 /* main.m */; };
@@ -55,9 +56,11 @@
 		41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.release.xcconfig"; sourceTree = "<group>"; };
 		6829A4F9E67FE2D2EBEA7E9C /* Pods-WGT ANALYSTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3132AC1D62562A007E8C5A /* WGTMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTMenuViewController.h; sourceTree = "<group>"; };
+		8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTMenuViewController.m; sourceTree = "<group>"; };
+		8B3132AF1D62571A007E8C5A /* WGTServersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTServersViewController.h; sourceTree = "<group>"; };
+		8B3132B01D62571A007E8C5A /* WGTServersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTServersViewController.m; sourceTree = "<group>"; };
 		8B4C8BE51D5FBE04009EE492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B4C8BE71D5FBF44009EE492 /* WGTMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGTMenuViewController.h; path = ../WGTMenuViewController.h; sourceTree = "<group>"; };
-		8B4C8BE81D5FBF44009EE492 /* WGTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGTMenuViewController.m; path = ../WGTMenuViewController.m; sourceTree = "<group>"; };
 		8BDD05491D5DE84500459853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BDD05521D5DE84500459853 /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
 		8BDD05531D5DE84500459853 /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
@@ -187,10 +190,12 @@
 				8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */,
 				8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */,
 				8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */,
-				8B4C8BE71D5FBF44009EE492 /* WGTMenuViewController.h */,
-				8B4C8BE81D5FBF44009EE492 /* WGTMenuViewController.m */,
 				8BDD05521D5DE84500459853 /* DEMORootViewController.h */,
 				8BDD05531D5DE84500459853 /* DEMORootViewController.m */,
+				8B3132AC1D62562A007E8C5A /* WGTMenuViewController.h */,
+				8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */,
+				8B3132AF1D62571A007E8C5A /* WGTServersViewController.h */,
+				8B3132B01D62571A007E8C5A /* WGTServersViewController.m */,
 				8B4C8BE41D5FBE04009EE492 /* Main.storyboard */,
 				8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */,
 				8BFBCF561D5A4EE500051894 /* Supporting Files */,
@@ -512,8 +517,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4C8BE91D5FBF44009EE492 /* WGTMenuViewController.m in Sources */,
+				8B3132AE1D62562A007E8C5A /* WGTMenuViewController.m in Sources */,
 				8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */,
+				8B3132B11D62571A007E8C5A /* WGTServersViewController.m in Sources */,
 				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
 				8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */,
 				8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */,
@@ -610,7 +616,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -648,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -665,6 +671,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -678,6 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SKS.WGT-ANALYST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
