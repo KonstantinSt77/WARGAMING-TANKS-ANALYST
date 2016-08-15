@@ -12,9 +12,9 @@
 		81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */; };
 		8B3132AE1D62562A007E8C5A /* WGTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */; };
 		8B3132B11D62571A007E8C5A /* WGTServersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132B01D62571A007E8C5A /* WGTServersViewController.m */; };
+		8B3132B41D62866E007E8C5A /* WGTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132B31D62866E007E8C5A /* WGTRootViewController.m */; };
 		8B4C8BE61D5FBE04009EE492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C8BE41D5FBE04009EE492 /* Main.storyboard */; };
 		8BDD05591D5DE84500459853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD05481D5DE84500459853 /* LaunchScreen.storyboard */; };
-		8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD05531D5DE84500459853 /* DEMORootViewController.m */; };
 		8BFBCF581D5A4EE500051894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF571D5A4EE500051894 /* main.m */; };
 		8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBCF5A1D5A4EE500051894 /* AppDelegate.m */; };
 		8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFBCF621D5A4EE500051894 /* Assets.xcassets */; };
@@ -60,10 +60,10 @@
 		8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTMenuViewController.m; sourceTree = "<group>"; };
 		8B3132AF1D62571A007E8C5A /* WGTServersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTServersViewController.h; sourceTree = "<group>"; };
 		8B3132B01D62571A007E8C5A /* WGTServersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTServersViewController.m; sourceTree = "<group>"; };
+		8B3132B21D62866E007E8C5A /* WGTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTRootViewController.h; sourceTree = "<group>"; };
+		8B3132B31D62866E007E8C5A /* WGTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTRootViewController.m; sourceTree = "<group>"; };
 		8B4C8BE51D5FBE04009EE492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BDD05491D5DE84500459853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BDD05521D5DE84500459853 /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
-		8BDD05531D5DE84500459853 /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
 		8BFBCF531D5A4EE500051894 /* WGT ANALYST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WGT ANALYST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFBCF571D5A4EE500051894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BFBCF591D5A4EE500051894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,8 +190,8 @@
 				8BFBCF901D5B5B8700051894 /* WGTMainViewController.m */,
 				8BFBCF911D5B5B8700051894 /* WGTStartViewController.h */,
 				8BFBCF921D5B5B8700051894 /* WGTStartViewController.m */,
-				8BDD05521D5DE84500459853 /* DEMORootViewController.h */,
-				8BDD05531D5DE84500459853 /* DEMORootViewController.m */,
+				8B3132B21D62866E007E8C5A /* WGTRootViewController.h */,
+				8B3132B31D62866E007E8C5A /* WGTRootViewController.m */,
 				8B3132AC1D62562A007E8C5A /* WGTMenuViewController.h */,
 				8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */,
 				8B3132AF1D62571A007E8C5A /* WGTServersViewController.h */,
@@ -521,9 +521,9 @@
 				8BFBCF5B1D5A4EE500051894 /* AppDelegate.m in Sources */,
 				8B3132B11D62571A007E8C5A /* WGTServersViewController.m in Sources */,
 				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
-				8BDD055E1D5DE84500459853 /* DEMORootViewController.m in Sources */,
 				8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */,
 				8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */,
+				8B3132B41D62866E007E8C5A /* WGTRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

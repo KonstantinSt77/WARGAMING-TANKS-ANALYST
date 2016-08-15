@@ -1,19 +1,19 @@
 //
-//  DEMOViewController.m
-//  RESideMenuStoryboards
+//  WGTRootViewController.m
+//  WGT ANALYST
 //
-//  Created by Roman Efimov on 10/9/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by Kostya on 16.08.16.
+//  Copyright © 2016 Stolyarenko K.S. All rights reserved.
 //
 
-#import "DEMORootViewController.h"
+#import "WGTRootViewController.h"
 #import "WGTMenuViewController.h"
 
-@interface DEMORootViewController ()
+@interface WGTRootViewController ()
 
 @end
 
-@implementation DEMORootViewController
+@implementation WGTRootViewController
 
 - (void)awakeFromNib
 {

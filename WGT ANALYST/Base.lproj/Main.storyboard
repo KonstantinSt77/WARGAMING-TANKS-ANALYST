@@ -623,7 +623,7 @@
         <!--Root View Controller-->
         <scene sceneID="DkW-Yq-wF5">
             <objects>
-                <viewController storyboardIdentifier="rootController" id="VqT-rU-tzH" customClass="DEMORootViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rootController" id="VqT-rU-tzH" customClass="WGTRootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="udP-vi-za4"/>
                         <viewControllerLayoutGuide type="bottom" id="76M-nI-D7u"/>
