@@ -15,8 +15,10 @@
 * **AFNetworking**
 * **DCAnimationKit**
 * **RESideMenuKit**
+* **Parcing Data**
 * **UIKit**
-* **Parcing Request**
+* **Foundation**
+
 
 
 
