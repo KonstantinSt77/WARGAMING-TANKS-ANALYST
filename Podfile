@@ -9,6 +9,7 @@ pod 'AFNetworking', '~> 3.0'
   pod 'RESideMenu', '~> 4.0'
   pod 'DCAnimationKit', '~> 0.0'
 
+
   target 'WGT ANALYSTTests' do
     inherit! :search_paths
     # Pods for testing
