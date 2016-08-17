@@ -10,6 +10,8 @@
 		1CC712258CC7622069C87228 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */; };
 		4D4D87291154FCE56DA6BF15 /* libPods-WGT ANALYSTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BDFE3A9DEE6FA12D0DBBA3 /* libPods-WGT ANALYSTUITests.a */; };
 		81462AD027CACA6F17772F7E /* libPods-WGT ANALYST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD78FCBDF7AC46950CBE3D6 /* libPods-WGT ANALYST.a */; };
+		8B2972EF1D64F1ED00A224C7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B2972EE1D64F1ED00A224C7 /* Podfile */; };
+		8B2972F11D64F20600A224C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8B2972F01D64F20600A224C7 /* README.md */; };
 		8B3132AE1D62562A007E8C5A /* WGTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */; };
 		8B3132B11D62571A007E8C5A /* WGTServersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132B01D62571A007E8C5A /* WGTServersViewController.m */; };
 		8B3132B41D62866E007E8C5A /* WGTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3132B31D62866E007E8C5A /* WGTRootViewController.m */; };
@@ -56,6 +58,8 @@
 		41977627BB627473BE952CE5 /* Pods-WGT ANALYSTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTTests/Pods-WGT ANALYSTTests.release.xcconfig"; sourceTree = "<group>"; };
 		6829A4F9E67FE2D2EBEA7E9C /* Pods-WGT ANALYSTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGT ANALYSTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGT ANALYSTUITests/Pods-WGT ANALYSTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76D4A2CB79062CDE84E12F12 /* libPods-WGT ANALYSTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGT ANALYSTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2972EE1D64F1ED00A224C7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		8B2972F01D64F20600A224C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8B3132AC1D62562A007E8C5A /* WGTMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTMenuViewController.h; sourceTree = "<group>"; };
 		8B3132AD1D62562A007E8C5A /* WGTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTMenuViewController.m; sourceTree = "<group>"; };
 		8B3132AF1D62571A007E8C5A /* WGTServersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTServersViewController.h; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				8BFBCF621D5A4EE500051894 /* Assets.xcassets */,
+				8B2972F01D64F20600A224C7 /* README.md */,
+				8B2972EE1D64F1ED00A224C7 /* Podfile */,
 				8BFBCF671D5A4EE500051894 /* Info.plist */,
 				8BFBCF571D5A4EE500051894 /* main.m */,
 			);
@@ -369,6 +375,7 @@
 			files = (
 				8B4C8BE61D5FBE04009EE492 /* Main.storyboard in Resources */,
 				8BFBCF631D5A4EE500051894 /* Assets.xcassets in Resources */,
+				8B2972EF1D64F1ED00A224C7 /* Podfile in Resources */,
 				8BDD05591D5DE84500459853 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +530,7 @@
 				8BFBCF581D5A4EE500051894 /* main.m in Sources */,
 				8BFBCF941D5B5B8700051894 /* WGTStartViewController.m in Sources */,
 				8BFBCF931D5B5B8700051894 /* WGTMainViewController.m in Sources */,
+				8B2972F11D64F20600A224C7 /* README.md in Sources */,
 				8B3132B41D62866E007E8C5A /* WGTRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
