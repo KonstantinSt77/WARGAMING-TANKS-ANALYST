@@ -24,7 +24,7 @@
     self.contentViewShadowRadius = 2;
     self.contentViewShadowEnabled = YES;
     self.bouncesHorizontally = NO;
-    self.parallaxEnabled =YES;
+    self.parallaxEnabled =NO;
     self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentViewController"];
     self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftMenuViewController"];
     self.backgroundImage = [UIImage imageNamed:@"Stars"];
